@@ -10,9 +10,9 @@ jobs:
 
     steps:
       - uses: actions/checkout@v1
-      - uses: lidigobeyond/activity-box@master
+      - uses: JasonEtco/activity-box@master
         env:
           GH_PAT: ${{ secrets.GH_PAT }}
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           GH_USERNAME: lidigobeyond
-          GIST_ID: ${{ secrets.GIST_ID }}
+          GIST_ID: 656fc2c0ac98f01b6b89b2f7d7bbed57
